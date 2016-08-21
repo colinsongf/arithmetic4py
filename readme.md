@@ -4,10 +4,10 @@
 This is a collection code using python about some arithmetic.
 #Contents
 
-Reference，https://github.com/linyiqun/DataMiningAlgorithm
+
 
 ## 数据挖掘经典算法
-Reference
+Reference，https://github.com/linyiqun/DataMiningAlgorithm
 ### 资源收录
 | 包名   | 目录名  | 算法名                        | 备注   |
 | ---- | ---- | -------------------------- | ---- |
