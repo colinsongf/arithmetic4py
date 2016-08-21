@@ -8,43 +8,39 @@ Reference，https://github.com/linyiqun/DataMiningAlgorithm
 
 ## 数据挖掘经典算法
 Reference
-### 18大DM算法
-| 包名                  | 目录名                   | 算法名                 |      |
-| ------------------- | --------------------- | ------------------- | ---- |
-| AssociationAnalysis | DataMining_Apriori    | Apriori-关联规则挖掘算法    |      |
-| AssociationAnalysis | DataMining_FPTree     | FPTree-频繁模式树算法      |      |
-| BaggingAndBoosting  | DataMining_AdaBoost   | AdaBoost-装袋提升算法     |      |
-| Classification      | DataMining_CART       | CART-分类回归树算法        |      |
-| Classification      | DataMining_ID3        | ID3-决策树分类算法         |      |
-| Classification      | DataMining_KNN        | KNN-k最近邻算法工具类       |      |
-| Classification      | DataMining_NaiveBayes | NaiveBayes-朴素贝叶斯算法  |      |
-| Clustering          | DataMining_BIRCH      | BIRCH-层次聚类算法        |      |
-| Clustering          | DataMining_KMeans     | KMeans-K均值算法        |      |
-| GraphMining         | DataMining_GSpan      | GSpan-频繁子图挖掘算法      |      |
-| IntegratedMining    | DataMining_CBA        | CBA-基于关联规则的分类算法     |      |
-| LinkMining          | DataMining_HITS       | HITS-链接分析算法         |      |
-| LinkMining          | DataMining_PageRank   | PageRank-网页重要性/排名算法 |      |
-| RoughSets           | DataMining_RoughSets  | RoughSets-粗糙集属性约简算法 |      |
-| SequentialPatterns  | DataMining_GSP        | GSP-序列模式分析算法        |      |
-| SequentialPatterns  | DataMining_PrefixSpan | PrefixSpan-序列模式分析算法 |      |
-| StatisticalLearning | DataMining_EM         | EM-期望最大化算法          |      |
-| StatisticalLearning | DataMining_SVM        | SVM-支持向量机算法         |      |
-
-### 其他经典DM算法
-| 包名     | 目录名                     | 算法名                        |      |
-| ------ | ----------------------- | -------------------------- | ---- |
-| Others | DataMining_ACO          | ACO-蚁群算法                   |      |
-| Others | DataMining_BayesNetwork | BayesNetwork-贝叶斯网络算法       |      |
-| Others | DataMining_CABDDCC      | CABDDCC-基于连通图的分裂聚类算法       |      |
-| Others | DataMining_Chameleon    | Chameleon-两阶段合并聚类算法        |      |
-| Others | DataMining_DBSCAN       | DBSCAN-基于密度的聚类算法           |      |
-| Others | DataMining_GA           | GA-遗传算法                    |      |
-| Others | DataMining_GA_Maze      | GA_Maze-遗传算法在走迷宫游戏中的应用算法   |      |
-| Others | DataMining_KDTree       | KDTree-k维空间关键数据检索算法工具类     |      |
-| Others | DataMining_MSApriori    | MSApriori-基于多支持度的Apriori算法 |      |
-| Others | DataMining_RandomForest | RandomForest-随机森林算法        |      |
-| Others | DataMining_TAN          | TAN-树型朴素贝叶斯算法              |      |
-| Others | DataMining_Viterbi      | Viterbi-维特比算法              |      |
+### 资源收录
+| 包名   | 目录名  | 算法名                        | 备注   |
+| ---- | ---- | -------------------------- | ---- |
+|      |      | Apriori-关联规则挖掘算法           |      |
+|      |      | FPTree-频繁模式树算法             |      |
+|      |      | AdaBoost-装袋提升算法            |      |
+|      |      | CART-分类回归树算法               |      |
+|      |      | ID3-决策树分类算法                |      |
+|      |      | KNN-k最近邻算法工具类              |      |
+|      |      | NaiveBayes-朴素贝叶斯算法         |      |
+|      |      | BIRCH-层次聚类算法               |      |
+|      |      | KMeans-K均值算法               |      |
+|      |      | GSpan-频繁子图挖掘算法             |      |
+|      |      | CBA-基于关联规则的分类算法            |      |
+|      |      | HITS-链接分析算法                |      |
+|      |      | PageRank-网页重要性/排名算法        |      |
+|      |      | RoughSets-粗糙集属性约简算法        |      |
+|      |      | GSP-序列模式分析算法               |      |
+|      |      | PrefixSpan-序列模式分析算法        |      |
+|      |      | EM-期望最大化算法                 |      |
+|      |      | SVM-支持向量机算法                |      |
+|      |      | ACO-蚁群算法                   |      |
+|      |      | BayesNetwork-贝叶斯网络算法       |      |
+|      |      | CABDDCC-基于连通图的分裂聚类算法       |      |
+|      |      | Chameleon-两阶段合并聚类算法        |      |
+|      |      | DBSCAN-基于密度的聚类算法           |      |
+|      |      | GA-遗传算法                    |      |
+|      |      | GA_Maze-遗传算法在走迷宫游戏中的应用算法   |      |
+|      |      | KDTree-k维空间关键数据检索算法工具类     |      |
+|      |      | MSApriori-基于多支持度的Apriori算法 |      |
+|      |      | RandomForest-随机森林算法        |      |
+|      |      | TAN-树型朴素贝叶斯算法              |      |
+|      |      | Viterbi-维特比算法              |      |
 
 ### 18大经典DM算法
 18大数据挖掘的经典算法以及代码实现，涉及到了决策分类，聚类，链接挖掘，关联挖掘，模式挖掘等等方面,后面都是相应算法的博文链接，希望能够帮助大家学。
@@ -104,7 +100,6 @@ Reference
 * ### GSpan
   gSpan算法属于图挖掘算法领域。，主要用于频繁子图的挖掘，相较于其他的图算法，子图挖掘算法是他们的一个前提或基础算法。gSpan算法用到了DFS编码，和Edge五元组，最右路径子图扩展等概念，算法比较的抽象和复杂。[详细介绍链接](http://blog.csdn.net/androidlushangderen/article/details/43924273)
 
-##Others目录下的算法：
 
 * ### GA
   遗传算法。遗传算法运用了生物进化理论的知识来寻找问题最优解的算法，算法的遗传进化过程分选择，交叉和变异操作，其中选择操是非常关键的步骤，把更适应的基于组遗传给下一代。[详细介绍链接](http://blog.csdn.net/androidlushangderen/article/details/44041499)
