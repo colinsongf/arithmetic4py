@@ -4,6 +4,8 @@
 This is a collection code using python about some arithmetic.
 #Contents
 
+Reference，https://github.com/linyiqun/DataMiningAlgorithm
+
 ## 数据挖掘经典算法
 Reference
 ### 18大DM算法
