@@ -88,11 +88,11 @@ dataMatrix = np.mat(dataSet)
 
 labelMat = labels
 
-print dataMatrix
-print labels
+print(dataMatrix)
+print(labels)
 
 IG = calIG(dataMatrix, labelMat)
 
-print IG
+print (IG)
 
     

@@ -30,7 +30,7 @@ def claErrorRate(results, test_y):
     for elem in arr_res:
         error_count += np.abs(elem) 
     error_rate = error_count/len_test
-    print error_rate
+    print(error_rate)
 
 def main():
     trainfile=r"data\train.txt"
