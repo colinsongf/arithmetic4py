@@ -4,8 +4,8 @@ build for data pre-procesing
 import pandas
 
 def pre():
-    genotype=pandas.read_table('genotype.dat',sep=' ')
-
+    #genotype=pandas.read_table('genotype.dat',sep=' ')
+    genotype=pandas.read_table('data-encode.txt',sep=' ')
     #AA=0000
     #AC=0001
     #AG=0010
@@ -34,15 +34,14 @@ def pre():
 
     # this is to relpace the value
     #genotype.replace(['TT','TC'],[33,31],inplace=True)   ,
-    l=['TT','TC','CC','CT','AA','GG','GA','AG','GT','AC','TG','CA','GC','CG','AT','ID','II','DD','TA']
-    print(len(l))
-    genotype.replace(['TT','TC','CC','CT','AA','GG','GA','AG','GT','AC','TG','CA','GC','CG','AT','ID','II','DD','TA'],[33,31,11,13,0,22,20,2,23,1,32,10,21,12,3,31,33,11,30],inplace=True)
-    print(genotype.xs(1)[1])
+    #l=['TT','TC','CC','CT','AA','GG','GA','AG','GT','AC','TG','CA','GC','CG','AT','ID','II','DD','TA']
+    #genotype.replace(['TT','TC','CC','CT','AA','GG','GA','AG','GT','AC','TG','CA','GC','CG','AT','ID','II','DD','TA'],[33,31,11,13,0,22,20,2,23,1,32,10,21,12,3,31,33,11,30],inplace=True)
+    #print(genotype.xs(1)[1])
     #print(genotype.iat(3,1))
-    genotype=genotype.iloc[0:,0:10]
-    #print(type(genotype))   
-    genotype.to("test.xlsx",sheet_name="data");
-    print(genotype)
+    #genotype=genotype.iloc[0:,0:10]
+    print(type(genotype))
+    genotype.to_csv("data-encode.csv",index=False)
+
 
 def analysis():
     genotype=pandas.read_excel('test.xlsx','data')
@@ -88,9 +87,9 @@ def analysis():
     print(grid_search.best_estimator_)
 
 
-def readData():
+
 
 if __name__=="__main__":
     print(__doc__)
     #analysis()
-    #pre()
+    pre()
